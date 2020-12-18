@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SetActivity">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/setlinearlayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:orientation="horizontal"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/rounded_border"
+            >
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_marginLeft="5dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/lok"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/set1btn"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:textSize="0sp"
+                android:text="Set1"
+                android:background="@drawable/set1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:orientation="horizontal"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/rounded_border"
+            >
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_marginLeft="5dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/lok"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/set2btn"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:textSize="0sp"
+                android:text="Set2"
+                android:background="@drawable/set2" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:orientation="horizontal"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/rounded_border"
+            >
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_marginLeft="5dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/lok"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/set3btn"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:textSize="0sp"
+                android:text="Set3"
+                android:background="@drawable/set3" />
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:orientation="horizontal"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/rounded_border"
+            >
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_marginLeft="5dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/lok"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/set4btn"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:textSize="0sp"
+                android:text="Set4"
+                android:background="@drawable/set4" />
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:orientation="horizontal"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/rounded_border"
+            >
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_marginLeft="5dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/lok"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/set5btn"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:textSize="0sp"
+                android:text="Set5"
+                android:background="@drawable/set5" />
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
