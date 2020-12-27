@@ -39,6 +39,7 @@
                 android:layout_height="?attr/actionBarSize"
                 android:textSize="0sp"
                 android:text="Set1"
+                android:gravity="center"
                 android:background="@drawable/set1" />
         </LinearLayout>
 

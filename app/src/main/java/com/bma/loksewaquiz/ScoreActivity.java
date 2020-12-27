@@ -102,8 +102,6 @@ private AppCompatButton done,share;
         intent.addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION);
         intent.putExtra(Intent.EXTRA_STREAM, myImageFileUri);
         intent.setType("image/png");
-        intent.setType("text/plain");
-        intent.putExtra(Intent.EXTRA_TEXT, "Please Download Application From Google Play Store: https://play.google.com/store/apps/details?id=com.bma.loksewaquiz");
         startActivity(Intent.createChooser(intent, "Share Your Score"));
     }
 
